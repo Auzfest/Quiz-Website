@@ -1,0 +1,105 @@
+/* Styles for the h1 element */
+h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+
+/* Add custom styles here */
+#button-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+  
+  /* Styles for the image question */
+  #image-question {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the question-container */
+  #question-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Styles for the question */
+  #question {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  /* Styles for the options */
+  #options {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+  /* Styles for the answer options */
+  #options label {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+
+  }
+  
+  
+  /* Styles for the answer options */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Styles for the submit button */
+  #submit-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  /* Styles for the score-container */
+  #score-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the score */
+  #score {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  /* Styles for the restart button */
+  #restart-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  /* Styles for the back button */
+  #back-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  

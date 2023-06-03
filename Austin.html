@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Application</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+    <body>
+        <h1>Clone Wars Quiz</h1>
+
+        <img id= "image question" src="" alt="">
+        
+        <div id="question-container">
+            <div id="question">Question goes here</div>
+            
+            <div id="options">
+            <input type="radio" name="answer" value="option1" id="option1">
+            <label for="option1" id="option1-label">Option 1</label><br>
+            
+            <input type="radio" name="answer" value="option2" id="option2">
+            <label for="option2" id="option2-label">Option 2</label><br>
+            </div>
+            
+            <button id="submit-btn">Submit</button>
+        </div>
+        
+        <div id="score-container">
+            <h2>Your Score</h2>
+            <div id="score">0</div>
+        </div>
+
+        <button id="restart-btn">Restart Quiz</button>
+
+        <button id="back-btn" onclick="window.location.href = 'main.html'">
+            Back to quiz menu
+        </button>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="Austin.js"></script>
+    </body>
+</html>
