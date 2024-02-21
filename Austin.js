@@ -89,7 +89,6 @@
       score = 0;
       scoreElement.text(score);
       questionContainer.show();
-      scoreContainer.hide();
       displayQuestion();
     }
 
